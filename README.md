@@ -17,7 +17,11 @@ The reliability of school bus services is crucial for students' daily commutes a
 ### Methodology
 - **Data Collection**: Gathered historical bus delay data along with spatial information about school locations in New York City.
 - **Model Architecture**: Implemented a spatio-temporal transformer model using PyTorch to capture both spatial and temporal correlations between schools.
+![School Bus](bd2.png)
+
 - **Training & Evaluation**: Trained the model on historical data, optimizing it to achieve a Mean Absolute Error (MAE) of less than 8 minutes per week.
+![School Bus](fig.png)
+
 
 ### Results
 The model's predictions are highly accurate, making it a valuable tool for improving school bus routing and scheduling in urban environments. This approach can potentially be scaled to other cities, contributing to smarter urban transportation systems.
